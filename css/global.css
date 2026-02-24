@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Big+Shoulders+Display:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-primary-magenta: hsl(300, 43%, 22%);
+    --clr-secondary-soft-pink: hsl(333, 80%, 67%);
+
+
+    --clr-neutral-DGM: hsl(303, 10%, 53%);
+    --clr-neutral-LGM: hsl(300, 24%, 96%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --font-size-body: 16px;
+    --font-family-body: 'League Spartan', sans-serif;
+
+    /* Base unit */
+    --space-unit: 1rem;
+
+    --spacing-3xs: calc(var(--space-unit) * 0.25rem);
+    --spacing-2xs: calc(var(--space-unit) * 0.5rem);
+    --spacing-xs: calc(var(--space-unit) * 0.75rem);
+    --spacing-md: var(--space-unit);
+    --spacing-lg: calc(var(--space-unit) * 1.5rem);
+    --spacing-xlg: calc(var(--space-unit) * 2);
+    --spacing-2xlg: calc(var(--space-unit) * 4);
+    --spacing-3xlg: calc(var(--space-unit) * 8);
+    --spacing-4xlg: calc(var(--space-unit) * 16);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
+    font-weight: 400;
+}
+
+h1 {
+
+    font-family: var(--font-family-header);
+    color: var(--clr-primary-magenta);
+    font-size: 4.5rem;
+    line-height: 0.8;
+    font-weight: 700;
+
+}
+
+
+h2 {
+    font-family: var(--font-family-body);
+    color: var(--clr-primary-magenta);
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 1.15rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.075rem;
+    line-height: 1;
+}
+
+h6 {
+    color: var(--clr-neutral-white);
+    font-size: 1.025rem;
+    line-height: 1;
+}
+
+
+p {
+    font-family: var(--font-family-body);
+    color: var(--clr-neutral-LGM);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    width: 100%;
+    height: auto;
+}

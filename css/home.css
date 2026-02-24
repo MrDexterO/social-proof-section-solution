@@ -191,7 +191,7 @@ main {
 
         align-content: start;
 
-        h6 {
+        h3 {
             color: var(--clr-neutral-white);
         }
 
@@ -369,4 +369,5 @@ main {
     .card {
         width: 100%;
     }
+
 }
